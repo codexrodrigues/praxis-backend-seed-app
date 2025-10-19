@@ -1,4 +1,4 @@
-package com.example.praxisseed;
+package io.github.codexrodrigues.praxis.seed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

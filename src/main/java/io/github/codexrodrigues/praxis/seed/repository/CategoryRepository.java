@@ -1,6 +1,6 @@
-package com.example.praxisseed.repository;
+package io.github.codexrodrigues.praxis.seed.repository;
 
-import com.example.praxisseed.domain.Category;
+import io.github.codexrodrigues.praxis.seed.domain.Category;
 import org.praxisplatform.uischema.repository.base.BaseCrudRepository;
 
 public interface CategoryRepository extends BaseCrudRepository<Category, Long> { }

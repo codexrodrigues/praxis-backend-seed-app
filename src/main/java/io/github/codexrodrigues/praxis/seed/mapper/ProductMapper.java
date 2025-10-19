@@ -1,8 +1,8 @@
-package com.example.praxisseed.mapper;
+package io.github.codexrodrigues.praxis.seed.mapper;
 
-import com.example.praxisseed.domain.Category;
-import com.example.praxisseed.domain.Product;
-import com.example.praxisseed.dto.ProductDTO;
+import io.github.codexrodrigues.praxis.seed.domain.Category;
+import io.github.codexrodrigues.praxis.seed.domain.Product;
+import io.github.codexrodrigues.praxis.seed.dto.ProductDTO;
 import org.mapstruct.*;
 import org.praxisplatform.uischema.mapper.config.CorporateMapperConfig;
 

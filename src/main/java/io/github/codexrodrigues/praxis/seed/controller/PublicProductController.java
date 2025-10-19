@@ -1,10 +1,10 @@
-package com.example.praxisseed.controller;
+package io.github.codexrodrigues.praxis.seed.controller;
 
-import com.example.praxisseed.domain.Product;
-import com.example.praxisseed.dto.ProductDTO;
-import com.example.praxisseed.dto.filter.ProductFilterDTO;
-import com.example.praxisseed.mapper.ProductMapper;
-import com.example.praxisseed.service.ProductService;
+import io.github.codexrodrigues.praxis.seed.domain.Product;
+import io.github.codexrodrigues.praxis.seed.dto.ProductDTO;
+import io.github.codexrodrigues.praxis.seed.dto.filter.ProductFilterDTO;
+import io.github.codexrodrigues.praxis.seed.mapper.ProductMapper;
+import io.github.codexrodrigues.praxis.seed.service.ProductService;
 import org.praxisplatform.uischema.annotation.ApiGroup;
 import org.praxisplatform.uischema.annotation.ApiResource;
 import org.praxisplatform.uischema.controller.base.AbstractReadOnlyController;

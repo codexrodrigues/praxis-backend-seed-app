@@ -1,10 +1,10 @@
-package com.example.praxisseed.controller;
+package io.github.codexrodrigues.praxis.seed.controller;
 
-import com.example.praxisseed.domain.Category;
-import com.example.praxisseed.dto.CategoryDTO;
-import com.example.praxisseed.dto.filter.CategoryFilterDTO;
-import com.example.praxisseed.mapper.CategoryMapper;
-import com.example.praxisseed.service.CategoryService;
+import io.github.codexrodrigues.praxis.seed.domain.Category;
+import io.github.codexrodrigues.praxis.seed.dto.CategoryDTO;
+import io.github.codexrodrigues.praxis.seed.dto.filter.CategoryFilterDTO;
+import io.github.codexrodrigues.praxis.seed.mapper.CategoryMapper;
+import io.github.codexrodrigues.praxis.seed.service.CategoryService;
 import org.praxisplatform.uischema.annotation.ApiGroup;
 import org.praxisplatform.uischema.annotation.ApiResource;
 import org.praxisplatform.uischema.controller.base.AbstractCrudController;
