@@ -35,5 +35,15 @@ public class ProductController extends AbstractCrudController<Product, ProductDT
     protected Product toEntity(ProductDTO dto) {
         return mapper.toEntity(dto);
     }
+
+    @Override
+    protected Long getEntityId(Product entity) {
+        return entity != null ? entity.getId() : null;
+    }
+
+    @Override
+    protected Long getDtoId(ProductDTO dto) {
+        return dto != null ? dto.getId() : null;
+    }
 }
 

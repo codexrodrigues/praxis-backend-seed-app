@@ -1,0 +1,17 @@
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/repository/CategoryRepository.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/PraxisBackendSeedApp.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/domain/Product.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/mapper/ProductMapper.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/service/ProductService.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/controller/PublicProductController.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/repository/ProductRepository.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/controller/ProductController.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/mapper/CategoryMapper.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/dto/CategoryDTO.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/config/DataLoader.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/dto/ProductDTO.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/service/CategoryService.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/domain/Category.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/dto/filter/ProductFilterDTO.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/controller/CategoryController.java
+/mnt/d/Developer/praxis-backend-seed-app/src/main/java/io/github/codexrodrigues/praxis/seed/dto/filter/CategoryFilterDTO.java

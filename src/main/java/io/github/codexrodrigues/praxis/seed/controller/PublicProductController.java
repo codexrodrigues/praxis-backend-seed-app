@@ -40,5 +40,15 @@ public class PublicProductController extends AbstractReadOnlyController<Product,
         // Não é utilizado em read-only; implementação de conveniência
         return mapper.toEntity(dto);
     }
+
+    @Override
+    protected Long getEntityId(Product entity) {
+        return entity != null ? entity.getId() : null;
+    }
+
+    @Override
+    protected Long getDtoId(ProductDTO dto) {
+        return dto != null ? dto.getId() : null;
+    }
 }
 

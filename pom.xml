@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.codexrodrigues.praxis.seed</groupId>
-  <artifactId>praxis-backend-seed-app</artifactId>
+  <artifactId>praxis-backend-seed</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -16,8 +16,8 @@
     <java.version>21</java.version>
     <spring-boot.version>3.3.5</spring-boot.version>
     <mapstruct.version>1.5.5.Final</mapstruct.version>
-    <!-- Ajuste para a versão publicada no Maven Central -->
-    <praxis.metadata.starter.version>1.0.0</praxis.metadata.starter.version>
+    <!-- Ajuste para a versão publicada no Maven Central / local install -->
+    <praxis.metadata.starter.version>1.0.0-beta.1</praxis.metadata.starter.version>
   </properties>
 
   <dependencyManagement>
@@ -114,6 +114,14 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring-boot.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>

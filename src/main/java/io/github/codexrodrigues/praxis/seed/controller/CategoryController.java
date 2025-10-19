@@ -35,5 +35,15 @@ public class CategoryController extends AbstractCrudController<Category, Categor
     protected Category toEntity(CategoryDTO dto) {
         return mapper.toEntity(dto);
     }
+
+    @Override
+    protected Long getEntityId(Category entity) {
+        return entity != null ? entity.getId() : null;
+    }
+
+    @Override
+    protected Long getDtoId(CategoryDTO dto) {
+        return dto != null ? dto.getId() : null;
+    }
 }
 

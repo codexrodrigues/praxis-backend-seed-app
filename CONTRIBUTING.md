@@ -11,7 +11,7 @@ Obrigado por considerar uma contribuição! Este guia ajuda você a começar.
 
 ```bash
 mvn -B -DskipTests -T 1C package
-java -jar target/praxis-backend-seed-app-1.0.0-SNAPSHOT.jar
+java -jar target/praxis-backend-seed-1.0.0-SNAPSHOT.jar
 ```
 
 Swagger UI: `http://localhost:8080/swagger-ui.html`
@@ -36,4 +36,3 @@ Swagger UI: `http://localhost:8080/swagger-ui.html`
 ## Segurança
 
 Não relate vulnerabilidades publicamente. Siga `SECURITY.md`.
-
